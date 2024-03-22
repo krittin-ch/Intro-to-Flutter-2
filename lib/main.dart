@@ -3,6 +3,10 @@ import 'package:intro_to_flutter_2/01_intro.dart';
 import 'package:intro_to_flutter_2/02_class.dart';
 import 'package:intro_to_flutter_2/03_subclass_inheritance.dart';
 import 'package:intro_to_flutter_2/04_extensions.dart';
+import 'package:intro_to_flutter_2/05_future.dart';
+import 'package:intro_to_flutter_2/06_async_await.dart';
+import 'package:intro_to_flutter_2/07_streams.dart';
+import 'package:intro_to_flutter_2/08_generators.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +17,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    test4();
+    test8();
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(

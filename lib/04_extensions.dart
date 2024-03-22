@@ -21,7 +21,7 @@ extension FullName on Person {
 
 // extend the 'Cat' class with a new functionality called 'Run'
 extension Run on Cat { // 'Run' is an extension not a function
-// Can include or exclude some specific function from the extended class (Cat)
+  // Can include or exclude some specific function from the extended class (Cat)
   void run() {
   print('Cat is running');
   }
