@@ -3,7 +3,7 @@
 // 'async' for asynchronous execution
 // 'await' for waiting until the
 
-import 'package:intro_to_flutter_2/05_future.dart';
+import 'package:intro_to_flutter_2/introduction/05_future.dart';
 
 void test6() async {
 
